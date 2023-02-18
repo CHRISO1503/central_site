@@ -1,0 +1,42 @@
+@media (min-width: 0px) {
+    .button-container {
+        position: fixed;
+        bottom: 0px;
+        display: flex;
+        align-content: center;
+        width: 100vw;
+    }
+    .button-container > div {
+        width: 50%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        border: solid white 1px;
+    }
+    .button-container > div > img {
+        width: 10%;
+    }
+}
+
+@media (min-width: 992px) {
+    .button-container {
+        position: fixed;
+        bottom: 0px;
+        display: flex;
+        align-content: center;
+        width: 30vw;
+        height: 20vh;
+        transform: translate(70vw, 0);
+    }
+    .button-container > div {
+        width: 50%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        border: solid white 1px;
+    }
+    .button-container > div > img {
+        width: 10%;
+    }
+}

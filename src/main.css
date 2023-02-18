@@ -1,0 +1,12 @@
+:root {
+    --bg: #28274d;
+}
+
+body {
+    margin: 0px;
+    overflow: hidden;
+    background-color: var(--bg);
+}
+* {
+    font-family: "Poppins", sans-serif;
+}
