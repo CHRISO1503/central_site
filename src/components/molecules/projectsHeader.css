@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1;
+    border-top: solid white 1px;
+    border-left: solid white 1px;
+}
+.text {
+    color: white;
+    font-size: 4vw;
+    margin-inline: 2vw;
+}

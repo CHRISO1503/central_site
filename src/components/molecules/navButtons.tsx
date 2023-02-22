@@ -1,11 +1,9 @@
 import "./navButtons.css";
 
 export default function NavButtons({
-    currentPos,
     navLeft,
     navRight,
 }: {
-    currentPos: number;
     navLeft: (value: void) => void;
     navRight: (value: void) => void;
 }) {
